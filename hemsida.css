@@ -1,0 +1,634 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';font-size: 22px;
+}
+body{
+    background-color: #222;
+}
+.container{
+        background-image:linear-gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,6)) ;
+        background-size: cover;
+        background-position: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px ;
+    color: white;
+    font-size: 28px;
+    transition: 2s;
+
+}
+h1{
+    color: #fff;
+}
+.logo:hover{
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin{
+  100% { -webkit-transform: rotate(-360deg); }
+}
+@-moz-keyframes spin{
+  100% { -moz-transform: rotate(-360deg); }
+}
+@keyframes spin{
+  100% { transform: rotate(-360deg); }
+}
+
+.logop{
+        font-family: 'Montserrat';font-size: 22px;
+background: #0CAFFF;
+background: -webkit-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+background: -moz-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+background: repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+span{
+    background: #0CAFFF;
+    background: -webkit-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+    background: -moz-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+    background: repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 2s;
+
+}
+nav ul li a:hover{
+background: #0CAFFF;
+background: -webkit-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+background: -moz-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+background: repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.contact{
+    color: white;
+    font-family: 'Montserrat';font-size: 22px;
+    cursor: pointer;
+    background: none;
+    border-radius: 30px;
+    border-color:  #0CAFFF;
+    padding: 12px 30px;
+    transition: 0.5s;
+    margin-right: 200px ;
+
+}
+.contact:hover{
+    color:white ;
+    border-color: #0CAFFF;
+    transform: scale(1.2);
+
+}
+
+.container2{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center  ;
+    margin: 300px;
+}
+
+.btn{
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 25px;
+    border-width: 2px;
+    color: #fff;
+    border-color: #0CAFFF;
+    font-weight: bold;
+    transition: 0.7s;
+    background: none;
+
+
+
+}
+.btn:hover{
+    transform: scale(1.2);
+    background: #0CAFFF;
+background: -webkit-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+background: -moz-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+background: repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';font-size: 22px;
+}
+body{
+    background-color: #222;
+}
+.container{
+        background-image:linear-gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,6)) ;
+        background-size: cover;
+        background-position: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.logo{
+    color: white;
+    font-size: 28px;
+    transition: 2s;
+
+}
+.logo:hover{
+    transform: rotate3d(1, 1, 1, 45deg);
+}
+span{
+    background: #0CAFFF;
+    background: -webkit-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+    background: -moz-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+    background: repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 2s;
+
+}
+nav ul li a:hover{
+background: #0CAFFF;
+background: -webkit-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+background: -moz-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+background: repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.contact{
+    color: white;
+    font-family: 'Montserrat';font-size: 22px;
+    cursor: pointer;
+    background: none;
+    border-radius: 30px;
+    border-color:  #0CAFFF;
+    padding: 12px 30px;
+    transition: 0.5s;
+
+}
+.contact:hover{
+    color:white ;
+    border-color: #0CAFFF;
+    transform: scale(1.2);
+
+}
+
+.container3{
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.info{
+    border-radius: 30px;
+    border-style: solid;
+    padding: 60px 20px;
+    margin: 100px;
+    -webkit-box-shadow:0px 0px 220px 75px rgba(70,46,255,0.69);
+    -moz-box-shadow: 0px 0px 220px 75px rgba(70,46,255,0.69);
+    box-shadow: 0px 0px 220px 75px rgba(70,46,255,0.69);   
+    color: white;
+    font-weight: bold;
+
+}
+img{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    width: 300px;
+    height: 300px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';font-size: 22px;
+}
+body{
+    background-color: #222;
+}
+.container{
+        background-image:linear-gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,6)) ;
+        background-size: cover;
+        background-position: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.logo{
+    color: white;
+    font-size: 28px;
+    transition: 2s;
+
+}
+.logo:hover{
+    transform: rotate3d(1, 1, 1, 45deg);
+}
+span{
+    background: #0CAFFF;
+    background: -webkit-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+    background: -moz-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+    background: repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 2s;
+
+}
+nav ul li a:hover{
+background: #0CAFFF;
+background: -webkit-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+background: -moz-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+background: repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.contact{
+    color: white;
+    font-family: 'Montserrat';font-size: 22px;
+    cursor: pointer;
+    background: none;
+    border-radius: 30px;
+    border-color:  #0CAFFF;
+    padding: 12px 30px;
+    transition: 0.5s;
+
+}
+.contact:hover{
+    color:white ;
+    border-color: #0CAFFF;
+    transform: scale(1.2);
+}
+.info{
+    border-radius: 30px;
+    border-style: solid;
+    padding: 30px 30px;
+    padding-right: 100px;
+    margin: 100px;
+    -webkit-box-shadow:0px 0px 220px 75px rgba(70,46,255,0.69);
+    -moz-box-shadow: 0px 0px 220px 75px rgba(70,46,255,0.69);
+    box-shadow: 0px 0px 220px 75px rgba(70,46,255,0.69);   
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    
+}
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    body{
+        background-color: #222;
+    }
+    .container{
+            background-image:linear-gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,6)) ;
+            background-size: cover;
+            background-position: center;
+    
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-left: 10%;
+        padding-right: 10%;
+    
+    }
+    .logo{
+        color: white;
+        font-size: 28px;
+        transition: 2s;
+    
+    }
+    .logo:hover{
+        transform: rotate3d(1, 1, 1, 45deg);
+    }
+    span{
+        background: #0CAFFF;
+        background: -webkit-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+        background: -moz-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+        background: repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 10px 20px;
+    
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 2s;
+    
+    }
+    nav ul li a:hover{
+    background: #0CAFFF;
+    background: -webkit-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+    background: -moz-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+    background: repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    }
+    
+    .contact{
+        color: white;
+        font-family: 'Montserrat';font-size: 22px;
+        cursor: pointer;
+        background: none;
+        border-radius: 30px;
+        border-color:  #0CAFFF;
+        padding: 12px 30px;
+        transition: 0.5s;
+    
+    }
+    .contact:hover{
+        color:white ;
+        border-color: #0CAFFF;
+        transform: scale(1.2);
+    
+    }
+    
+    
+    
+    
+    .contact-box {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: 100px;
+        gap: 100px;
+        
+        }
+        
+        p{
+            display: inline-block;
+            cursor: pointer;
+            border-radius: 30px;
+            padding: 25px;
+            color: #fff;
+            border-color: #0CAFFF;
+            font-weight: bold;
+            transition: 0.7s;
+            background: none;
+            border-style: solid;
+        }
+        span{
+            color:#0096FF;
+        }
+    
+    p:hover{
+        transform: scale(1.2);
+    
+    }
+    textarea {
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+    }   
+    .divv{
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 30px;
+        padding: 25px;
+        color: #fff;
+        border-color: #0CAFFF;
+        font-weight: bold;
+        transition: 0.7s;
+        background: none;
+        border-style: solid;
+    }
+    .info{
+        border-radius: 30px;
+        border-style: solid;
+        padding: 60px 20px;
+        margin: 100px;
+        -webkit-box-shadow:0px 0px 220px 75px rgba(70,46,255,0.69);
+        -moz-box-shadow: 0px 0px 220px 75px rgba(70,46,255,0.69);
+        box-shadow: 0px 0px 220px 75px rgba(70,46,255,0.69);   
+        color: white;
+        font-weight: bold;
+        
+    }
+    .container3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat';font-size: 22px;
+        }
+        body{
+            background-color: #222;
+        }
+        .container{
+                background-image:linear-gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,6)) ;
+                background-size: cover;
+                background-position: center;
+        
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 40px;
+            padding-left: 10%;
+            padding-right: 10%;
+        
+        }
+        .logo{
+            color: white;
+            font-size: 28px;
+            transition: 2s;
+        
+        }
+        .logo:hover{
+            transform: rotate3d(1, 1, 1, 45deg);
+        }
+        span{
+            background: #0CAFFF;
+            background: -webkit-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+            background: -moz-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+            background: repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        nav ul li{
+            list-style: none;
+            display: inline-block;
+            padding: 10px 20px;
+        
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 2s;
+        
+        }
+        nav ul li a:hover{
+        background: #0CAFFF;
+        background: -webkit-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+        background: -moz-repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+        background: repeating-linear-gradient(to right, #0CAFFF 0%, #000080 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        }
+        .contact{
+            color: white;
+            font-family: 'Montserrat';font-size: 22px;
+            cursor: pointer;
+            background: none;
+            border-radius: 30px;
+            border-color:  #0CAFFF;
+            padding: 12px 30px;
+            transition: 0.5s;
+        
+        }
+        .contact:hover{
+            color:white ;
+            border-color: #0CAFFF;
+            transform: scale(1.2);
+        
+        }
+        .courses{
+            color: #0CAFFF;
+        }
+        .info{
+            
+            display: flex;
+            border-radius: 30px;
+            border-style: solid;
+            padding: 200px 20px;
+            margin: 100px;
+            -webkit-box-shadow:0px 0px 220px 75px rgba(70,46,255,0.69);
+            -moz-box-shadow: 0px 0px 220px 75px rgba(70,46,255,0.69);
+            box-shadow: 0px 0px 220px 75px rgba(70,46,255,0.69);   
+            color: white;
+            font-weight: bold;
+            
+        }
+        .container3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .götimg{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 200px ;
+            width: 300px;
+            height: 200px;  
+        }
+        .img2{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 600px ;
+            width: 300px;
+            height: 200px; 
+        }
+        .img3{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 1000px ;
+            width: 300px;
+            height: 200px;  
+        }
+    
+    
+    
+    
